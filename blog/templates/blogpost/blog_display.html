@@ -1,0 +1,24 @@
+{% extends 'blogpost/blog_base.html' %}
+{% block content %}
+    <a href="{% url 'writenew' %}" title="writenew">writenew</a>
+
+    {% if error %}
+        <p>Sorry!There are some errors!</p>
+    {% endif %}
+
+    <form action="{% url 'search' %}" method="POST">
+        <input type="text" name="t"/>
+        <input type="submit" name="search" value="search"/>
+    </form>
+
+    {% for blog in blogs %}
+        <h2>title: {{ blog.title }}</h2>
+        <p>body: {{ blog.body }}</p>
+
+        <a href="{% url 'delete' BlogPost.id %}">delete</a>
+        <a href="{% url 'edit' %}">edit</a>
+
+    {% endfor %}
+{% endblock %}
+
+
