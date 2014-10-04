@@ -24,7 +24,7 @@ def blogEdit(request, id):
             else:
                 blogs = BlogPost(title=blogs.title, body=blogs.body)
                 blogs.save()
-            return HttpResponseRedirect('/blogpost/list/')
+            return HttpResponseRedirect('/blogpost/showdetail/%s/' % blogs.id)
     return render_to_response('blogpost/blog_edit.html', {'bf': BlogForm(instance=blogs)})
 
 

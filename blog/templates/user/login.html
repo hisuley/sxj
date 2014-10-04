@@ -6,8 +6,10 @@
 </head>
 <body>
 <form action="" method="POST">
-    <input type="text" name="username"/>
-    <input type="password" name="password"/>
+    <label for="id_username">username</label>
+    <input type="text" name="username" id="id_username"/>
+    <label for="id_password">password</label>
+    <input type="password" name="password" id="id_password"/>
     <input type="submit" value="login"/>
     <a href="{% url 'signin' %}">signin</a>
 </form>
