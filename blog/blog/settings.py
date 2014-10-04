@@ -63,7 +63,7 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.mysql',
         'NAME': "djangodb",
-        "PASSWORD" : "123456",
+        "PASSWORD": "123456",
         "USER": 'root',
         'HOST': 'localhost',
     }
@@ -72,9 +72,9 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-cn'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 

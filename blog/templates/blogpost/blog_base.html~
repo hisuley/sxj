@@ -9,7 +9,7 @@
 
       <body>
         <h1>a simple blog</h1>
-        <h2>for django practice</h2>
+        <h3>for django practice</h3>
         {% block content %}
         {% endblock %}
       </body>

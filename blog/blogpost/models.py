@@ -10,4 +10,4 @@ class BlogPost(models.Model):
         return u' %s %s %s' % (self.title, self.body, self.timestamp)
 
     class Meta:
-        ordering = ['timestamp']
+        ordering = ['-timestamp']

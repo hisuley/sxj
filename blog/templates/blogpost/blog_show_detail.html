@@ -1,0 +1,10 @@
+{% extends 'blogpost/blog_base.html' %}
+{% block content %}
+    <h1>Show detail</h1>
+    <h2>title: {{ blog.title }}</h2>
+    <p>body: {{ blog.body }}</p>
+    <p>date: {{ blog.timestamp }}</p>
+    <a href="{% url 'delete' blog.id %}">delete</a>
+    <a href="{% url 'edit' blog.id %}">edit</a>
+    <a href="{% url 'list' %}">Back to list</a>
+{% endblock %}
