@@ -6,9 +6,7 @@ from django.http import HttpResponse
 
 
 def login(request):
-    if not request.POST:
-        return render(request, 'user/login.html')
-    else:
+    if request.method == 'POST':
         uf = UserForm(request.POST)
         if uf.is_valid():
             username = uf.cleaned_data['username']
@@ -18,6 +16,7 @@ def login(request):
                 return render_to_response('blogpost/blog_list.html')
             else:
                 return HttpResponse('Please signin or check your username and password')
+    return render_to_response('user/login.html')
 
 
 def logout(request):
