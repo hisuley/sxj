@@ -1,0 +1,105 @@
+div.container{
+    width:1333px;
+    height:616px;
+}
+div.clear{
+    clear:both;
+    float:none;
+}
+div.header {
+    width:1333px;
+    height:47px;
+    padding:2px;
+}
+div.menu{    
+    height:47px;
+    font-size: 12px;
+    font-family: arial, 'Hiragino Sans GB', 'Microsoft Yahei', 'Î¢ÈíÑÅºÚ', 'ËÎÌå', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;
+}
+div.menu img{
+   maxheight:15px;
+   vertical-align:middle;
+   margin-right:5px;
+}
+ul.menu_ul {
+    list-style-type:none;
+    float:right;
+    padding:0px;
+    margin:0px;
+    line-height:20px;
+}
+ul.menu_ul li {
+    display:inline;
+    float:right;
+    padding:0px;
+    margin-left:10px;	
+}
+div.logo{
+    width:1333px;
+    height:84px;
+    padding-top:10px;
+    text-align:center;
+}
+div.logo img{
+    margin:0px auto;
+    align:middle;
+    width:221px;
+    height:74px;
+}
+div.content{
+    width:1333px;
+    height:94px;
+    text-align:center;
+}
+div.navigation{
+    float:none;
+    width:1333px;
+    height:55px;
+    margin:0px;
+    font-size:16px;
+    font-family:arial, 'Hiragino Sans GB', 'Microsoft Yahei', 'Î¢ÈíÑÅºÚ', 'ËÎÌå', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;
+}
+ul.navigation_ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    position:relative;
+    top:25px;
+    
+}
+ul.navigation_ul li{
+    display:inline;
+    margin-left:10px;
+    margin-right:10px;
+}
+div.search_box{
+    height:39px;
+    width:1333px;
+    padding-top:0px;
+}
+input.search_input{
+    width:537px;
+    height:39px;
+    margin:0px;
+    padding:0px;
+    border:2px thick solid;
+}
+input.search_button{
+    width:102px;
+    height:39px;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    background-color:#38f;
+    font-size:16px;
+    color:white;
+}
+
+div.footer{
+    text-align:center;
+    margin-top:360px;
+    height:25px;
+    font-size:12px;
+    font-family:arial, 'Hiragino Sans GB', 'Microsoft Yahei', 'Î¢ÈíÑÅºÚ', 'ËÎÌå', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;
+    color:#CCC;
+}
