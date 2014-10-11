@@ -6,8 +6,9 @@ body{
 div.container{
     height:981px;
     width:1333px;
-    overflow:auto;
+    #overflow:auto;
     background-image:url('./images/background.png');
+    position:static;
 }
 
 
@@ -16,26 +17,186 @@ div.header{
     width:1333px;
     margin:0px;
     padding:0px;
-    position:relaivie;
+    position:relative;
 }
-
-
+div.header_cloud{
+    width:446px;
+    position:absolute;
+    left:385px;
+    top:-50px;
+}
+div.header_cloud img{
+    position:absolute;
+    z-index:2;
+  
+}
+div.header_disc{
+    position:absolute;
+    top:120px;
+    left:720px;
+}
+img.header_disc{
+    position:absolute;
+    z-index:1;
+  
+}
+img.begin_button{
+    position:absolute;
+    z-index:2;
+    top:90px;
+    left:96px;
+}
 div.content_top{
     height:240px;
     width:1333px;
     position:relative;
+    font-family:Microsoft YaHei;
 }
+p.baiwan{
+   ;position:absolute;
+    z-index:2;
+    top:0px;
+    left:-160px;
+    font-size:18px;
+    color:ffffff;
+}
+span.baiwan_span{
+    font-size:10px;
+}
+div.content_top_bar{
+    position:relative;
+    margin-left:522px;
+}
+p.city_one{
+    color:#971320;
+    position:absolute;
+    z-index:2;
+    font-size:16px;
+    top:20px;
+    left:160px;
+    
+}
+p.city_two{
+    color:#971320;
+    position:absolute;
+    z-index:2;
+    font-size:16px;
+    top:20px;
+    left:320px;
+}
+span.city_span{
+    font-size:9.7px;
+}
+div.prize{
+    height:144px;
+    width:1333px;
+    text-align:center;
+    position:relative;
+    top:0px;
+}
+p.one_prize{
+   font-size:14px;
+  
+   color:#B31E1E;
+   position:absolute;
+   z-index:2;
+   top:85px;
+   left:-160px;
+}
+
+p.two_prize{
+   font-size:14px;
+   color:#B31E1E;
+   position:absolute;
+   z-index:2;
+   top:81px;
+   left:30px;
+}
+p.three_prize{
+   font-size:14px;
+   color:#B31E1E;
+   position:absolute;
+   z-index:2;
+   top:87px;
+   left:210px;
+}
+
+p.luck_prize{
+   font-size:14px;
+   color:#B31E1E;
+   position:absolute;
+   z-index:2;
+   top:88px;
+   left:340px;
+}
+p.one_prize_detail{
+   font-size:12px;
+   color:#ffffff;
+   position:absolute;
+   z-index:2;
+   top:190px;
+   left:-180px;
+   
+}
+p.two_prize_detail{
+   font-size:12px;
+   color:#ffffff;
+   position:absolute;
+   z-index:2;
+   top:190px;
+   left:0px;
+   
+}
+p.three_prize_detail{
+   font-size:12px;
+   color:#ffffff;
+   position:absolute;
+   z-index:2;
+   top:190px;
+   left:180px;
+   
+}
+p.luck_prize_detail{
+   font-size:12px;
+   color:#ffffff;
+   position:absolute;
+   z-index:2;
+   top:190px;
+   left:330px;
+   
+}
+p.prize_detail{
+   font-size:12.5px;
+   color:#c12434;
+   position:absolute;
+   z-index:2;
+   top:60px;
+   left:20px;
+}
+p.twenty_money{
+   font-size:10px;
+   color:#ffffff;
+   position:absolute;
+   z-index:2;
+   top:133px;
+   left:385px;
+}
+div.content_top_bar img{
+    margin-right:20px;
+}
+
 div.content_bottom{
     height:241px;
     width:1333px;
     position:relative;
     font-family:Microsoft YaHei;
+    top:-10px;
 }
 img.content_bottom_displayone{
     height:26px;    
     width:111px;
     position:absolute;
-    top:40px;
+    top:50px;
     left:350px;			
 }
 img.content_bottom_displaytwo{
@@ -47,7 +208,6 @@ img.content_bottom_displaytwo{
 }
 div.draw_notice{
     position:relative;
-    top:
 }
 div.participation{   
     position:relative;
@@ -55,31 +215,52 @@ div.participation{
     left:380px;
     z-index:2;
 }
-p.paragraph_p1{
+p.dn_p1{
     font-size:12.5px;
     color:#971320;
+    position:absolute;
+    top:43px;
+    left:375px;
 }
 
-p.paragraph_p2{
-    font-size:11px;
-    color:#f9a400;
-}
-p.paragraph_p3{
+p.dn_p2{
     font-size:11px;
     color:#f9ecd5;
+    position:absolute;
+    top:70px;
+    left:350px;
+}
+p.participation_p1{
+    font-size:12.5px;
+    color:#971320;
+    position:absolute;
+    top:20px;
+    left:-10px;
+}
+p.participation_p2{
+    font-size:12.5px;
+    color:#f9ecd5;
+    position:absolute;
+    top:45px;
+    left:-30px;
+}
+
+span.yellow_span{
+    font-size:11px;
+    color:#f9a400;   
 }
 div.footer{
     height:93px;
     width:1333px;
     position:relative;
+    top:20px;
 }
 div.footer img{
     position:relative;
     left:839px;
+    top:-20px;
 }
 
-
-}
 div.clear{
     claer:both;
     float:none;
