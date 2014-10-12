@@ -10,7 +10,10 @@ div.container{
     background-image:url('./images/background.png');
     position:static;
 }
-
+p{
+    font-weight:bold;
+    font-family:Microsoft YaHei;
+}
 
 div.header{
     height:407px;
@@ -25,9 +28,33 @@ div.header_cloud{
     left:385px;
     top:-50px;
 }
-div.header_cloud img{
+p.onehundred{
+    color:#ffffff;
     position:absolute;
     z-index:2;
+    top:80px;
+    left:140px;
+    font-size:24px;
+    font-weight:bold;	
+
+}
+span.onehundred_span{
+    font-size:12px;
+}
+p.tips{
+    color:c12434;
+    font-size:14px;
+    position:absolute;
+    z-index:2;
+    top:160px;
+    left:20px;
+}
+span.tips_span{
+    color:#ffffff;
+}
+div.header_cloud img{
+    position:absolute;
+    z-index:1;
   
 }
 div.header_disc{
@@ -42,21 +69,100 @@ img.header_disc{
 }
 img.begin_button{
     position:absolute;
-    z-index:2;
+    z-index:3;
     top:90px;
     left:96px;
 }
+p.desc_common{
+    font-size:14px;
+    color:#ffffff;
+}
+p.one_prize_desc{
+    width:120px;
+    position:absolute;
+    z-index:2;
+    left:145px;
+    top:20px;
+    transform:rotate(45deg);
+    text-align:center;
+}
+
+p.two_prize_desc{
+    width:120px;
+    position:absolute;
+    z-index:2;
+    left:150px;
+    top:160px;
+    transform:rotate(135deg);
+    text-align:center;
+}
+p.three_prize_desc{
+    width:120px;
+    position:absolute;
+    z-index:2;
+    left:0px;
+    top:175px;
+    transform:rotate(225deg);
+    text-align:center;
+}
+p.luck_prize_desc{
+    width:120px;
+    position:absolute;
+    z-index:2;
+    left:0px;
+    top:20px;
+    transform:rotate(315deg);
+    text-align:center;
+}
+
+
+p.person_common{
+    font-size:12px;
+    color:#ba2534;
+}
+p.one_person{
+    position:absolute;
+    z-index:2;
+    top:80px;
+    left:135px;
+    transform:rotate(45deg);
+    width:80px;
+}
+p.five_person{
+    position:absolute;
+    z-index:2;
+    top:150px;
+    left:125px;
+    transform:rotate(135deg);
+    width:80px;
+}
+p.ten_person{
+    position:absolute;
+    z-index:2;
+    top:145px;
+    left:45px;
+    transform:rotate(225deg);
+    width:80px;
+}
+p.many_person{
+    position:absolute;
+    z-index:2;
+    top:70px;
+    left:55px;
+    transform:rotate(315deg);
+    width:80px;
+}
+
 div.content_top{
     height:240px;
     width:1333px;
     position:relative;
-    font-family:Microsoft YaHei;
 }
 p.baiwan{
    ;position:absolute;
     z-index:2;
-    top:0px;
-    left:-160px;
+    top:-10px;
+    left:-170px;
     font-size:18px;
     color:ffffff;
 }
@@ -73,8 +179,7 @@ p.city_one{
     z-index:2;
     font-size:16px;
     top:20px;
-    left:160px;
-    
+    left:160px;   
 }
 p.city_two{
     color:#971320;
@@ -82,7 +187,7 @@ p.city_two{
     z-index:2;
     font-size:16px;
     top:20px;
-    left:320px;
+    left:340px;
 }
 span.city_span{
     font-size:9.7px;
@@ -189,7 +294,6 @@ div.content_bottom{
     height:241px;
     width:1333px;
     position:relative;
-    font-family:Microsoft YaHei;
     top:-10px;
 }
 img.content_bottom_displayone{
